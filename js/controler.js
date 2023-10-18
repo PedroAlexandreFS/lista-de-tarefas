@@ -19,7 +19,7 @@ function addTarefa() {
         <div onclick="marcarTarefa(${contador})" class="item-nome">
             ${valorInput} </div>
         <div class="item-botao">
-            <button onclick="deletar(${contador})" class="delete">
+            <button class="trash" onclick="deletar(${contador})" class="delete">
                 <i class="fi fi-rr-trash-xmark"></i>
             </button>
         </div>
